@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TAbout Us</title>
+    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="stylesheet" href="Css/header.css" />
+  </head>
+  <body>
+    <header style="position: fixed; top: 0">
+      <!-- <nav>
+        <a href="/">Home</a>
+    </nav> -->
+      <div class="dropdown">
+        <button class="dropbtn">
+          <img src="./img/headfile.png" alt="menu" />
+        </button>
+        <div class="drop-content">
+          <a href="index.html">Home</a>
+          <a href="faq.html">FAQ</a>
+          <a href="blog.html">Blog</a>
+        </div>
+      </div>
+      <button class="dropbtn1">About Us</button>
+    </header>
+
+    <main class="parent-about" style="margin: 90px 0; max-height: 70vh">
+      <div style="margin-bottom: -30px">
+        <h2 style="text-align: center; margin-top: 12px">Contact Form</h2>
+      </div>
+      <section class="about-container">
+        <div class="main-about">
+          <div class="about-app">
+            <h3 style="text-align: center">About</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur <br />
+              adipisicing elit. Animi, reprehenderit mollitia! <br />
+              Suscipit quidem iusto dolores, aspernatur <br />voluptatibus eum
+              quisquam at? <br />
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
+              Ab voluptatibus est totam quis accusantium autem, <br />
+              error earum nulla laboriosam nesciunt ea velit <br />provident
+              nobis ullam delectus quibusdam dolorum <br />
+              illum aliquam.
+            </p>
+          </div>
+
+          <div class="form">
+            <form
+              action="#"
+              method="get"
+              name="form1"
+              onsubmit="return validateForm()"
+            >
+              <fieldset>
+                <!-- <legend style="text-align: center;">Contact Form</legend> -->
+                <p>
+                  <input
+                    id="input"
+                    class="input-field"
+                    type="text"
+                    placeholder="Name"
+                    required
+                  />
+                </p>
+                <p>
+                  <input
+                    class="input-field"
+                    type="email"
+                    placeholder="Email"
+                    required
+                  />
+                </p>
+                <p>
+                  <textarea
+                    name="message"
+                    placeholder="Message"
+                    required
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </p>
+                <button class="btn1" type="submit" value="click">submit</button>
+                <button type="reset">Reset</button>
+              </fieldset>
+            </form>
+          </div>
+          <div class="about-me">
+            <h3 style="text-align: center">About Me</h3>
+            <img src="img/emma.jpg" alt="portrait o the developer" />
+            <h4>Emmanuel Jonathan</h4>
+            <p>
+              I am a currently a Fellow at 3MTT Nigera, <br />Taking training in
+              Sofware development <br />
+              I have a degree in Psychology from <br />Benue STate University
+              <br />
+              my Biggest Motivation is my love for tech and <br />
+              creating something beautiful with codes. <br />
+              Place a Call @<a
+                style="text-decoration: none; color: black"
+                href="tel:+2347053422577"
+                >07053422577</a
+              ><br />
+              And mail @<a
+                style="text-decoration: none; color: black"
+                href="mailto:emmanueljonathan113@gmail.com"
+              >
+                <br />emmanueljonathan113@gmail.com</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- <div class="footer-navigation">
+      <ul style="display: block; text-decoration: none; gap: 5px;">
+          <!-- <li><a href="/">Temprature Converter</a></li> -->
+      <!--<li><a href="#">Blog</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="about.html">About Us</a></li>
+      </ul>
+      
+      
+  </div> -->
+
+      <div class="sm">
+        <div class="sm-icon">
+            <a target="_blank" href="http://www.facebook.com/skyfazee"><div class="fb"></div></a>
+            <a target="_blank" href="http://www.instagram.com/skyfazee""><div class="ins"></div></a>
+            <a target="_blank" href="http://www.x.com/mdomajone"><div class="x"></div></a>
+            <a target="_blank" href="http://www.linkedin.com/in/emmanuel-jonathan"><div class="link"></div></a>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2024 EmmaTech. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="JS/main.js"></script>
+</html>
